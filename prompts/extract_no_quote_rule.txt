@@ -1,0 +1,12 @@
+Read the passage and answer the question.
+
+Reply with one JSON object and nothing else. It must have exactly these keys.
+{"answerable": true or false, "answer": "...", "quote": "..."}
+
+Give a short answer and a quote that supports it.
+
+Passage
+{passage}
+
+Question
+{question}

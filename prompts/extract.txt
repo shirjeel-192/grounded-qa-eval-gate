@@ -1,0 +1,16 @@
+Read the passage and answer the question.
+
+Reply with one JSON object and nothing else. It must have exactly these keys.
+{"answerable": true or false, "answer": "...", "quote": "..."}
+
+Rules
+1. Use only the passage. Do not use outside knowledge.
+2. If the passage does not answer the question, reply {"answerable": false, "answer": "", "quote": ""}.
+3. Otherwise set "answerable" to true and make "answer" the shortest phrase from the passage that answers the question, copied exactly.
+4. "quote" must be copied character for character from the passage, and the answer must appear inside the quote.
+
+Passage
+{passage}
+
+Question
+{question}
